@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2453
+
+Parse::Eyapp and Parse::Yapp (see http://search.cpan.org/dist/Parse-Eyapp/) are
+yacc-like parser generators for Perl. 
+The syntax file eyapp.vim provides syntax highlighting for the yapp and eyapp languages 
+(see http://search.cpan.org/dist/Parse-Eyapp/)
