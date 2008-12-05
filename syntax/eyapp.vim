@@ -51,7 +51,7 @@ syn match	eyappSep	"^[ \t]*%}"
 
 " eyapp comments
 syn match eyappcomment          "#.*"
-syn match eyappcomment          "\(\/\*\(.\|\n\)*\*\/\)\{-1,}"
+syn match eyappcomment         "\(\/\*\([^*]\|\*[^\\]\)*\*\/\)\{-1,}"
 
 syn match	eyappCurlyError	"[{}]"
 
